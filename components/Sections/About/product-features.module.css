@@ -1,0 +1,51 @@
+.textClass {
+    @apply mt-2 font-light text-base text-black;
+}
+.textClass2 {
+    @apply mt-2 font-light text-base text-[#52525B] w-3/4 max-[1024px]:text-center max-[1024px]:w-full;
+}
+.classDiv{
+   @apply flex flex-col-reverse lg:grid lg:grid-cols-2 lg:gap-x-16;
+}
+.classDiv2{
+     @apply flex flex-col-reverse max-[1024px]:flex-col lg:grid lg:grid-cols-2 lg:gap-x-16;
+}
+.titleClass{
+    @apply text-3xl font-bold text-[#03252F] sm:text-3xl;
+}
+.titleClass2{
+    @apply text-3xl font-bold text-[#03252F] sm:text-3xl max-[1024px]:text-center max-[1024px]:text-2xl;
+}
+.gridClass{
+    @apply lg:col-start-2 mt-5 lg:col-span-1 lg:row-start-1 lg:mt-5 xl:col-span-1;
+}
+.gridClass2{
+    @apply lg:col-start-1 xl:col-start-1 flex-auto lg:col-span-1 lg:row-start-1 xl:col-span-1;
+}
+.gridClass3{
+    @apply xl:col-start-1 mt-5 lg:col-span-1 lg:row-start-1 lg:mt-5 xl:col-span-1;
+}
+.gridClass4{
+    @apply lg:col-start-2 flex-auto lg:col-span-1 lg:row-start-1 xl:col-span-1;
+}
+.boldText{
+    @apply font-medium text-[#03252F];
+}
+.contentGrid{
+    @apply mx-auto max-w-2xl py-24 px-4 sm:px-6 sm:py-12 max-sm:py-6 lg:max-w-7xl lg:px-8;
+}
+.contentGrid2{
+    @apply mt-16 max-sm:mt-0 space-y-16 max-sm:space-y-0;
+}
+.imgClass{
+    @apply object-cover object-center rounded-xl;
+}
+.gridChildClass{
+    @apply aspect-w-5 aspect-h-3;
+}
+.gridChildClass2{
+    @apply rounded-xl aspect-w-5 aspect-h-3 h-[280px];
+}
+.breakHid{
+    @apply md:hidden;
+}

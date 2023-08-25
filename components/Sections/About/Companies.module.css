@@ -1,0 +1,6 @@
+.logoClass{
+    @apply mx-9 max-sm:mx-0  max-sm:w-[35%];
+}
+.pClass{
+    @apply relative my-6 text-lg leading-8 text-[#3F3F46] sm:max-w-md lg:max-w-none font-bold;
+}

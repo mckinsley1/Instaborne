@@ -1,0 +1,18 @@
+.inputClass{
+    @apply placeholder:font-thin block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6;
+}
+.inputClass2{
+    @apply placeholder:font-thin block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6;
+}
+.mtDiv{
+    @apply mt-2.5;
+}
+.smCol{
+    @apply sm:col-span-2;
+}
+.buttonSend{
+    @apply rounded-md bg-[#02B5A1] py-2.5 px-3.5 text-sm font-semibold text-white shadow-sm max-sm:w-full;
+}
+.mainDiv{
+    @apply lg:col-start-2 xl:col-start-2 mt-1 lg:col-span-1 lg:row-start-1 lg:mt-5 xl:col-span-1;
+}
